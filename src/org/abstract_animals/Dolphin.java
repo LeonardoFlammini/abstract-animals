@@ -1,6 +1,6 @@
 package org.abstract_animals;
 
-public class Dolphin extends Animal{
+public class Dolphin extends Animal implements CanSwim{
 
     private final static String[] FOODS = {"fish", "squid", "shellfish"};
 
@@ -25,5 +25,10 @@ public class Dolphin extends Animal{
             }
         }
         return false;
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Swim-swim! I'm swimming");
     }
 }
