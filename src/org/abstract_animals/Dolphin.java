@@ -11,7 +11,7 @@ public class Dolphin extends Animal{
 
     @Override
     public void makeNoise() {
-        System.out.println("Meow!");
+        System.out.println("whistle-click");
     }
 
     @Override
